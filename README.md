@@ -52,17 +52,3 @@ python -m tests.eval        # 30 sample claims with the real models → pass rat
 |---|---|
 | Fake models (code logic) | 100% (30/30) |
 | Real local models | run `python -m tests.eval` and fill in |
-
-## Code
-
-10 small files in `app/` — see **[CODE_WALKTHROUGH.md](CODE_WALKTHROUGH.md)** for a step-by-step tour.
-
-```
-app/   config · schemas · data · llm · rag · agents · router · pipeline · api · ui
-tests/ fakes · test_pipeline · test_api · test_live · eval
-data/  policies.json · policy_docs/ · history.json · estimates.json · claims.json · images/
-docs/  pipeline diagram · case study
-```
-
-Photos: [nicolasmetallo/car-damage-detector](https://github.com/nicolasmetallo/car-damage-detector) (MIT).
-The previous, larger version of the code is in `_old_version/` (safe to delete).
