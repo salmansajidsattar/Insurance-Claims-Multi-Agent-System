@@ -12,6 +12,6 @@ data/uploads/
 reports/audit_*/
 env/
 ACTION_PLAN/
-CLAUDE/
-CODE_WALKTHROUGH/
-RUN_STEPS/
+CLAUDE.md/
+CODE_WALKTHROUGH.md/
+RUN_STEPS.md/
