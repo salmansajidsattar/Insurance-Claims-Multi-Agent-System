@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1780 1030" width="1780" height="1030" role="img" aria-label="End-to-end pipeline: a claim is submitted through Streamlit and FastAPI, runs through six agents and a deterministic router in LangGraph. The rules-based Policy agent and the RAG-based PolicyRAG agent must agree. Every step is validated, retried once, audited and saved. The router sends the claim to human review, reject or auto-approve." font-family="Segoe UI, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowM2I5Yzc3NS03OTkyLTRmODQtOTgwOC0xN2VmZjUzZGZlZTcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaKkuUkMPtWmPU1kCIQpFnA8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozZmNlZTIwYS03YjMxLTQwNTctOGU4ZS01YjhmYjQzMTdkMzdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoJ1sOxwr5a6mbYws09Qq1ZwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggkEGmZ0cQhBq8F79aoNxxHboN2ckm8+NgMmgLywet0kukZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHdwsWPNJdYUB+oZTV22pogAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIBg4jlqW7MT0218m/KPkgMgMr8u1uvGFWxOhHEetyVvUZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQI6Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjAzYjljNzc1LTc5OTItNGY4NC05ODA4LTE3ZWZmNTNkZmVlNy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjI4MmNhY2NjLTk5NDYtNDA2ZS04OWZkLWQwM2NiMDlkNDVkNHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCQQaZnRxCEGrwXv1qg3HEdug3ZySbz42AyaAvLB63SS6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg1IaTRtocszGtLeJBh1ZeOrtydl+TRS7M3woY6q8chKSiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg3NPnvBu9VU33qD7z8QfWtbQaTZ8DmnInEFWm1KqIZId0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQFRGZ09J4t+k2uNlMmbIQvAuV81rngmoXJrwa0W4gQbNj5H79AdKO9u0DvDU307mDN9FC07JcZ3u3QzWWa99q5o=</c2pa:manifest></metadata>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1780" height="1030" fill="#ffffff"/>
+
+  <!-- Title + legend -->
+  <text x="50" y="44" font-size="22" font-weight="700" fill="#0f172a">Insurance Claims Multi-Agent Harness — end-to-end pipeline</text>
+  <text x="50" y="68" font-size="13" fill="#475569">Models describe, code decides. Every hand-off between agents is a validated Pydantic object.</text>
+  <rect x="1160" y="34" width="14" height="14" rx="3" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="1180" y="46" font-size="12" fill="#334155">calls a local model (Ollama)</text>
+  <rect x="1380" y="34" width="14" height="14" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="1400" y="46" font-size="12" fill="#334155">plain code, no LLM</text>
+  <rect x="1550" y="34" width="14" height="14" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="1570" y="46" font-size="12" fill="#334155">guardrail</text>
+
+  <!-- ============ 1 · SUBMIT ============ -->
+  <text x="50" y="93" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">1 · SUBMIT</text>
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <rect x="50" y="100" width="300" height="86" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+    <text x="200" y="128" font-size="15" font-weight="700" fill="#0f172a">Streamlit UI</text>
+    <text x="200" y="150">shows the customer's package</text>
+    <text x="200" y="170">photo + description + estimate</text>
+
+    <rect x="395" y="100" width="300" height="86" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+    <text x="545" y="128" font-size="15" font-weight="700" fill="#0f172a">POST /submit-claim</text>
+    <text x="545" y="150">FastAPI · app/api.py</text>
+    <text x="545" y="170">GET /policy/{id} for the package</text>
+
+    <rect x="740" y="100" width="300" height="86" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="890" y="128" font-size="15" font-weight="700" fill="#0f172a">Input checks</text>
+    <text x="890" y="150">policy belongs to claimant · ≤100 words</text>
+    <text x="890" y="170">JPEG/PNG ≤10 MB · date not in future</text>
+
+    <rect x="1085" y="100" width="300" height="86" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+    <text x="1235" y="128" font-size="15" font-weight="700" fill="#0f172a">Save</text>
+    <text x="1235" y="150">image + estimate → data/uploads/</text>
+    <text x="1235" y="170">ClaimState, status = processing</text>
+
+    <rect x="1430" y="100" width="300" height="86" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+    <text x="1580" y="128" font-size="15" font-weight="700" fill="#0f172a">202 · {claim_id}</text>
+    <text x="1580" y="150">returned at once, then</text>
+    <text x="1580" y="170">BackgroundTask: process_claim()</text>
+  </g>
+  <g stroke="#475569" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <line x1="350" y1="143" x2="393" y2="143"/>
+    <line x1="695" y1="143" x2="738" y2="143"/>
+    <line x1="1040" y1="143" x2="1083" y2="143"/>
+    <line x1="1385" y1="143" x2="1428" y2="143"/>
+    <polyline points="1580,186 1580,216 180,216 180,298"/>
+  </g>
+  <text x="890" y="206" font-size="11" fill="#dc2626" text-anchor="middle">fails → 404 / 413 / 415 / 422 back to the UI</text>
+  <text x="1235" y="208" font-size="12" fill="#334155" text-anchor="middle" font-weight="600">GRAPH.invoke(ClaimState)</text>
+
+  <!-- ============ 2 · LANGGRAPH ============ -->
+  <rect x="40" y="236" width="1700" height="414" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="215" y="258" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">2 · LANGGRAPH   StateGraph(ClaimState) — app/pipeline.py</text>
+
+  <!-- cross-check bracket between Policy and PolicyRAG -->
+  <polyline points="648,300 648,285 882,285 882,300" stroke="#b45309" stroke-width="1.8" fill="none" stroke-dasharray="5 3" marker-start="url(#p)" marker-end="url(#p)"/>
+  <text x="765" y="279" font-size="12" font-weight="700" fill="#b45309" text-anchor="middle">must agree, else human review</text>
+
+  <!-- agents -->
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <rect x="80" y="300" width="200" height="130" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+    <text x="180" y="330" font-size="16" font-weight="700" fill="#0f172a">Intake</text>
+    <text x="180" y="354">LLM · qwen2.5:7b</text>
+    <text x="180" y="374">extracts 5 facts from text</text>
+    <text x="180" y="412" font-weight="700" fill="#6d28d9">→ Claim</text>
+
+    <rect x="314" y="300" width="200" height="130" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+    <text x="414" y="330" font-size="16" font-weight="700" fill="#0f172a">Damage</text>
+    <text x="414" y="354">VLM · qwen2.5vl:7b</text>
+    <text x="414" y="374">code: zone · severity · type</text>
+    <text x="414" y="412" font-weight="700" fill="#6d28d9">→ Damage</text>
+
+    <rect x="548" y="300" width="200" height="130" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+    <text x="648" y="330" font-size="16" font-weight="700" fill="#0f172a">Policy (rules)</text>
+    <text x="648" y="354">period · peril · exclusions</text>
+    <text x="648" y="374">cites clause IDs</text>
+    <text x="648" y="412" font-weight="700" fill="#1d4ed8">→ PolicyDecision</text>
+
+    <rect x="782" y="300" width="200" height="130" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+    <text x="882" y="330" font-size="16" font-weight="700" fill="#0f172a">Policy RAG</text>
+    <text x="882" y="354">LLM reads retrieved clauses</text>
+    <text x="882" y="374">quotes checked word-for-word</text>
+    <text x="882" y="412" font-weight="700" fill="#6d28d9">→ RagDecision</text>
+
+    <rect x="1016" y="300" width="200" height="130" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+    <text x="1116" y="330" font-size="16" font-weight="700" fill="#0f172a">Risk</text>
+    <text x="1116" y="354">weighted flags (config.py)</text>
+    <text x="1116" y="374">score = Σ weights, max 1.0</text>
+    <text x="1116" y="412" font-weight="700" fill="#1d4ed8">→ Risk</text>
+
+    <rect x="1250" y="300" width="200" height="130" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+    <text x="1350" y="330" font-size="16" font-weight="700" fill="#0f172a">Payout</text>
+    <text x="1350" y="354">min(est, limit) − deductible</text>
+    <text x="1350" y="374">skipped if not covered</text>
+    <text x="1350" y="412" font-weight="700" fill="#1d4ed8">→ Payout</text>
+
+    <rect x="1484" y="300" width="200" height="130" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+    <text x="1584" y="330" font-size="16" font-weight="700" fill="#0f172a">Router</text>
+    <text x="1584" y="354">explicit if-statements</text>
+    <text x="1584" y="374">thresholds from .env</text>
+    <text x="1584" y="412" font-weight="700" fill="#1d4ed8">→ Decision</text>
+  </g>
+  <g stroke="#475569" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <line x1="280" y1="365" x2="312" y2="365"/>
+    <line x1="514" y1="365" x2="546" y2="365"/>
+    <line x1="748" y1="365" x2="780" y2="365"/>
+    <line x1="982" y1="365" x2="1014" y2="365"/>
+    <line x1="1216" y1="365" x2="1248" y2="365"/>
+    <line x1="1450" y1="365" x2="1482" y2="365"/>
+  </g>
+
+  <!-- data each agent reads -->
+  <g font-size="11.5" fill="#334155" text-anchor="middle">
+    <rect x="80" y="462" width="200" height="52" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="180" y="484" font-weight="700">claim description</text>
+    <text x="180" y="502">≤ 100 words</text>
+    <rect x="314" y="462" width="200" height="52" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="414" y="484" font-weight="700">damage photo</text>
+    <text x="414" y="502">data/uploads/</text>
+    <rect x="548" y="462" width="200" height="52" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="648" y="484" font-weight="700">customer package</text>
+    <text x="648" y="502">cover · limit · deductible</text>
+    <rect x="782" y="462" width="200" height="66" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-dasharray="4 3"/>
+    <text x="882" y="482" font-weight="700">policy_docs/*.md</text>
+    <text x="882" y="499">BM25 + nomic-embed-text</text>
+    <text x="882" y="516">fused by rank (RRF) · top 6</text>
+    <rect x="1016" y="462" width="200" height="52" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="1116" y="484" font-weight="700">history.json</text>
+    <text x="1116" y="502">recent claims · fraud flags</text>
+    <rect x="1250" y="462" width="200" height="52" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-dasharray="4 3"/>
+    <text x="1350" y="484" font-weight="700">repair estimate</text>
+    <text x="1350" y="502">+ limit/deductible of the cover</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="1.4" fill="none" marker-end="url(#a)">
+    <line x1="180" y1="462" x2="180" y2="433"/>
+    <line x1="414" y1="462" x2="414" y2="433"/>
+    <line x1="648" y1="462" x2="648" y2="433"/>
+    <line x1="882" y1="462" x2="882" y2="433"/>
+    <line x1="1116" y1="462" x2="1116" y2="433"/>
+    <line x1="1350" y1="462" x2="1350" y2="433"/>
+  </g>
+  <text x="50" y="452" font-size="11" fill="#64748b">reads</text>
+
+  <!-- per-step guardrail band -->
+  <rect x="80" y="538" width="1370" height="92" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <g font-size="12.5" fill="#422006">
+    <text x="100" y="563" font-size="13.5" font-weight="700">Every agent runs through run_agent() in app/agents.py</text>
+    <text x="100" y="586">1) validate output with Pydantic (extra = forbid) · 2) bad output → retry once · 3) second failure → claim goes to human review</text>
+    <text x="100" y="609">4) write an AuditEntry: agent, status, input, output, note, time · 5) save the whole ClaimState to disk after every step</text>
+  </g>
+
+  <!-- ============ 3 · STORE & READ ============ -->
+  <text x="50" y="690" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">3 · STORE &amp; READ</text>
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <rect x="50" y="700" width="320" height="70" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+    <text x="210" y="728" font-size="14" font-weight="700" fill="#0f172a">data/audit/&lt;claim_id&gt;.json</text>
+    <text x="210" y="750">ClaimState + full audit trail</text>
+
+    <rect x="50" y="810" width="320" height="70" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+    <text x="210" y="838" font-size="14" font-weight="700" fill="#0f172a">GET /claim/{id} · /audit · /claims</text>
+    <text x="210" y="860">FastAPI reads the saved file</text>
+
+    <rect x="420" y="810" width="300" height="70" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+    <text x="570" y="838" font-size="14" font-weight="700" fill="#0f172a">Streamlit</text>
+    <text x="570" y="860">polls every 2 s · verdict · timeline</text>
+  </g>
+  <g stroke="#475569" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <line x1="210" y1="630" x2="210" y2="698"/>
+    <line x1="210" y1="770" x2="210" y2="808"/>
+    <line x1="370" y1="845" x2="418" y2="845"/>
+  </g>
+  <text x="222" y="672" font-size="12" fill="#334155" font-weight="600">saved after every step</text>
+  <text x="222" y="794" font-size="12" fill="#334155">load</text>
+  <text x="394" y="836" font-size="12" fill="#334155" text-anchor="middle">JSON</text>
+
+  <!-- ============ 4 · ROUTER DECISION ============ -->
+  <text x="780" y="690" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">4 · ROUTER DECISION (checked in this order)</text>
+  <polyline points="1584,430 1584,672 1115,672 1115,698" stroke="#475569" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+
+  <g font-size="11.5" fill="#334155">
+    <rect x="780" y="700" width="670" height="58" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+    <text x="798" y="724" font-size="13.5" font-weight="700" fill="#0f172a">Any review gate fires?</text>
+    <text x="798" y="745">agent failure · missing data · rules ≠ RAG · photo ≠ story · confidence &lt; 0.7 · risk ≥ 0.6 · net &gt; $5,000</text>
+
+    <rect x="780" y="780" width="670" height="58" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="798" y="804" font-size="13.5" font-weight="700" fill="#0f172a">Else: claim not covered?</text>
+    <text x="798" y="825">policy inactive · peril not in the package · exclusion hit · reported too late (clauses cited)</text>
+
+    <rect x="780" y="860" width="670" height="58" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="798" y="884" font-size="13.5" font-weight="700" fill="#0f172a">Else</text>
+    <text x="798" y="905">covered, rules and RAG agree, low risk, photo matches, payout within limit</text>
+  </g>
+  <g stroke="#475569" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <line x1="1115" y1="758" x2="1115" y2="778"/>
+    <line x1="1115" y1="838" x2="1115" y2="858"/>
+    <line x1="1450" y1="729" x2="1498" y2="729"/>
+    <line x1="1450" y1="809" x2="1498" y2="809"/>
+    <line x1="1450" y1="889" x2="1498" y2="889"/>
+  </g>
+  <g font-size="11" fill="#64748b">
+    <text x="1124" y="773">no</text>
+    <text x="1124" y="853">no</text>
+    <text x="1474" y="722" text-anchor="middle">yes</text>
+    <text x="1474" y="802" text-anchor="middle">yes</text>
+  </g>
+
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="1500" y="706" width="200" height="46" rx="23" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="1600" y="734" fill="#92400e">HUMAN REVIEW</text>
+    <rect x="1500" y="786" width="200" height="46" rx="23" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="1600" y="814" fill="#991b1b">REJECT</text>
+    <rect x="1500" y="866" width="200" height="46" rx="23" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="1600" y="894" fill="#166534">AUTO-APPROVE</text>
+  </g>
+
+  <!-- ============ 5 · EVALS ============ -->
+  <rect x="50" y="948" width="1680" height="58" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+  <g font-size="12.5" fill="#334155">
+    <text x="68" y="972" font-weight="700" fill="#0f172a">5 · EVALS   python -m tests.eval</text>
+    <text x="68" y="993">30 synthetic claims (expected labels never shown to agents) → process_claim() → check routing · reasons · payout · citations · rules/RAG agreement · photo/story mismatch · failures → reports/</text>
+  </g>
+</svg>

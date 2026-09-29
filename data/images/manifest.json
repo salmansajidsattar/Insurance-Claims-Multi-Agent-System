@@ -1,0 +1,316 @@
+{
+  "_about": "Ground-truth labels for eval + offline VLM stub. Never shown to agents.",
+  "images": {
+    "img_front_bumper_dent_01.jpg": {
+      "accepted_zones": [
+        "front"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "large dent in front bumper",
+      "source_file": "4.jpg"
+    },
+    "img_front_bumper_scrape_01.jpg": {
+      "accepted_zones": [
+        "front"
+      ],
+      "damage_type": "scratch",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "scuffs and small dent on front bumper corner",
+      "source_file": "14.jpg"
+    },
+    "img_front_crush_01.jpg": {
+      "accepted_zones": [
+        "front",
+        "hood"
+      ],
+      "damage_type": "crush",
+      "severity": "severe",
+      "image_usable": true,
+      "note": "front end and hood crushed",
+      "source_file": "50.jpg"
+    },
+    "img_front_crush_02.jpg": {
+      "accepted_zones": [
+        "front",
+        "hood"
+      ],
+      "damage_type": "crush",
+      "severity": "total_loss",
+      "image_usable": true,
+      "note": "front end destroyed, engine bay exposed",
+      "source_file": "26.jpg"
+    },
+    "img_front_crush_03.jpg": {
+      "accepted_zones": [
+        "front",
+        "hood"
+      ],
+      "damage_type": "crush",
+      "severity": "severe",
+      "image_usable": true,
+      "note": "front bumper, grille and hood crushed",
+      "source_file": "47.jpg"
+    },
+    "img_front_crush_04.jpg": {
+      "accepted_zones": [
+        "front",
+        "hood"
+      ],
+      "damage_type": "crush",
+      "severity": "severe",
+      "image_usable": true,
+      "note": "front end crushed, hood buckled, windshield cracked",
+      "source_file": "31.jpg"
+    },
+    "img_front_crush_05.jpg": {
+      "accepted_zones": [
+        "front"
+      ],
+      "damage_type": "crush",
+      "severity": "severe",
+      "image_usable": true,
+      "note": "front corner crushed",
+      "source_file": "25.jpg"
+    },
+    "img_front_crush_06.jpg": {
+      "accepted_zones": [
+        "front",
+        "hood"
+      ],
+      "damage_type": "crush",
+      "severity": "severe",
+      "image_usable": true,
+      "note": "front end and hood crushed",
+      "source_file": "27.jpg"
+    },
+    "img_front_fender_crush_01.jpg": {
+      "accepted_zones": [
+        "front",
+        "wheels"
+      ],
+      "damage_type": "crush",
+      "severity": "severe",
+      "image_usable": true,
+      "note": "front fender crumpled over wheel",
+      "source_file": "72.jpg"
+    },
+    "img_front_fender_dent_01.jpg": {
+      "accepted_zones": [
+        "front"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "front bumper/fender dent near headlight and wheel",
+      "source_file": "60.jpg"
+    },
+    "img_front_hood_dent_01.jpg": {
+      "accepted_zones": [
+        "front",
+        "hood"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "hood and headlight area dented",
+      "source_file": "29.jpg"
+    },
+    "img_front_minor_dent_01.jpg": {
+      "accepted_zones": [
+        "front"
+      ],
+      "damage_type": "dent",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "small dent/crease on front bumper below headlight",
+      "source_file": "45.jpg"
+    },
+    "img_rear_bumper_dent_01.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "rear bumper corner pushed in",
+      "source_file": "1.jpg"
+    },
+    "img_rear_bumper_dent_02.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "rear bumper dent below tail light",
+      "source_file": "2.jpg"
+    },
+    "img_rear_corner_scrape_01.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "scratch",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "scrape on rear bumper corner",
+      "source_file": "19.jpg"
+    },
+    "img_rear_corner_scrape_02.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "scratch",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "scrapes on rear bumper corner",
+      "source_file": "3.jpg"
+    },
+    "img_rear_crush_01.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "crush",
+      "severity": "total_loss",
+      "image_usable": true,
+      "note": "rear crushed, rear glass gone",
+      "source_file": "30.jpg"
+    },
+    "img_rear_hatch_dent_01.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "dent in tailgate next to tail light",
+      "source_file": "13.jpg"
+    },
+    "img_rear_hatch_dent_02.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "dent",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "crease on tailgate beside left tail light, light scuff on bumper",
+      "source_file": "15.jpg"
+    },
+    "img_rear_quarter_crush_01.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "crush",
+      "severity": "severe",
+      "image_usable": true,
+      "note": "rear quarter and tail light crushed",
+      "source_file": "58.jpg"
+    },
+    "img_rear_quarter_dent_01.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "dent",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "small dent on rear quarter panel",
+      "source_file": "69.jpg"
+    },
+    "img_rear_quarter_dent_02.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "dent on rear quarter panel",
+      "source_file": "21.jpg"
+    },
+    "img_rear_quarter_dent_03.jpg": {
+      "accepted_zones": [
+        "rear"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "rear bumper and quarter dented",
+      "source_file": "24.jpg"
+    },
+    "img_side_door_dent_01.jpg": {
+      "accepted_zones": [
+        "left_side",
+        "right_side"
+      ],
+      "damage_type": "dent",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "small dent on rear door",
+      "source_file": "10.jpg"
+    },
+    "img_side_door_dent_02.jpg": {
+      "accepted_zones": [
+        "left_side",
+        "right_side"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "dent and scrape along lower rear door",
+      "source_file": "66.jpg"
+    },
+    "img_side_door_dent_03.jpg": {
+      "accepted_zones": [
+        "left_side",
+        "right_side"
+      ],
+      "damage_type": "dent",
+      "severity": "moderate",
+      "image_usable": true,
+      "note": "dents across front and rear doors",
+      "source_file": "18.jpg"
+    },
+    "img_side_door_dent_04.jpg": {
+      "accepted_zones": [
+        "left_side",
+        "right_side"
+      ],
+      "damage_type": "dent",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "small dent/scratch on door",
+      "source_file": "16.jpg"
+    },
+    "img_side_scratch_01.jpg": {
+      "accepted_zones": [
+        "left_side",
+        "right_side"
+      ],
+      "damage_type": "scratch",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "long scratches across both doors",
+      "source_file": "11.jpg"
+    },
+    "img_side_scratch_02.jpg": {
+      "accepted_zones": [
+        "left_side",
+        "right_side"
+      ],
+      "damage_type": "scratch",
+      "severity": "minor",
+      "image_usable": true,
+      "note": "scratches on rear door above wheel",
+      "source_file": "77.jpg"
+    },
+    "img_unusable_dark_01.jpg": {
+      "accepted_zones": [],
+      "damage_type": "other",
+      "severity": "minor",
+      "image_usable": false,
+      "note": "synthetic: c15 blurred + darkened to simulate an unusable photo",
+      "source_file": "69.jpg (modified)"
+    }
+  }
+}

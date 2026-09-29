@@ -1,0 +1,952 @@
+[
+  {
+    "claim_id": "CLM-EVAL-001",
+    "submission": {
+      "claimant_id": "C-001",
+      "policy_id": "POL-001",
+      "description": "I was stopped at a red light on Jinnah Avenue when the car behind me failed to brake and hit my rear bumper. The rear bumper corner is dented. The other driver admitted fault and we exchanged details. Police report filed.",
+      "incident_date": "2026-09-18",
+      "submitted_at": "2026-09-19T10:05:00+00:00",
+      "image_path": "data/images/img_rear_bumper_dent_01.jpg",
+      "vehicle": "Suzuki Swift 2019",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "moderate",
+      "third_party": true,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 430.0,
+      "capped": false,
+      "why": "Clean covered collision, low risk, payout under limit."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-002",
+    "submission": {
+      "claimant_id": "C-003",
+      "policy_id": "POL-003",
+      "description": "My car was parked outside the office overnight. In the morning I found long scratches across both doors on the side, it looks like someone keyed it. Nothing was stolen. I reported it to the police.",
+      "incident_date": "2026-09-15",
+      "submitted_at": "2026-09-16T08:30:00+00:00",
+      "image_path": "data/images/img_side_scratch_01.jpg",
+      "vehicle": "Toyota Corolla 2020",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "vandalism",
+      "circumstances": [],
+      "zones": [
+        "left_side"
+      ],
+      "severity": "minor",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 477.5,
+      "capped": false,
+      "why": "Vandalism is covered under POL-003; image matches keyed doors."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-003",
+    "submission": {
+      "claimant_id": "C-004",
+      "policy_id": "POL-004",
+      "description": "While parking in a basement I misjudged the distance and drove into a concrete pillar at low speed. The front bumper has a big dent in it. No one else was involved.",
+      "incident_date": "2026-09-10",
+      "submitted_at": "2026-09-12T14:00:00+00:00",
+      "image_path": "data/images/img_front_bumper_dent_01.jpg",
+      "vehicle": "Honda City 2018",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "front"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 537.5,
+      "capped": false,
+      "why": "Single-vehicle collision with a fixed object; covered."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-004",
+    "submission": {
+      "claimant_id": "C-005",
+      "policy_id": "POL-005",
+      "description": "In a supermarket car park another shopper's trolley rolled into my car and left a small dent on the rear door on the side. Minor damage only.",
+      "incident_date": "2026-09-20",
+      "submitted_at": "2026-09-21T09:15:00+00:00",
+      "image_path": "data/images/img_side_door_dent_01.jpg",
+      "vehicle": "Kia Sportage 2022",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "right_side"
+      ],
+      "severity": "minor",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 77.5,
+      "capped": false,
+      "why": "Minor side dent, small payout, low risk."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-005",
+    "submission": {
+      "claimant_id": "C-002",
+      "policy_id": "POL-002",
+      "description": "I scraped the side of my car against a low wall while turning into a narrow street. The lower rear door is dented and scraped along the bottom.",
+      "incident_date": "2026-09-08",
+      "submitted_at": "2026-09-10T11:40:00+00:00",
+      "image_path": "data/images/img_side_door_dent_02.jpg",
+      "vehicle": "Volkswagen Polo 2017",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "left_side"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 1355.0,
+      "capped": false,
+      "why": "Collision on a collision-only policy, within reporting window."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-006",
+    "submission": {
+      "claimant_id": "C-001",
+      "policy_id": "POL-001",
+      "description": "While reversing out of my driveway I backed into my neighbour's gate post. The tailgate next to the tail light is dented. The light itself still works.",
+      "incident_date": "2026-09-22",
+      "submitted_at": "2026-09-23T17:20:00+00:00",
+      "image_path": "data/images/img_rear_hatch_dent_01.jpg",
+      "vehicle": "Suzuki Swift 2019",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 520.0,
+      "capped": false,
+      "why": "Low-speed reversing collision; rear damage matches."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-007",
+    "submission": {
+      "claimant_id": "C-009",
+      "policy_id": "POL-009",
+      "description": "I clipped a kerb while pulling into a parking space and scuffed the corner of my front bumper. There is some paint transfer and a small dent.",
+      "incident_date": "2026-09-19",
+      "submitted_at": "2026-09-20T12:00:00+00:00",
+      "image_path": "data/images/img_front_bumper_scrape_01.jpg",
+      "vehicle": "Toyota Prius 2016",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "front"
+      ],
+      "severity": "minor",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 0.0,
+      "capped": false,
+      "why": "Covered but repair cost is below the $1,000 deductible -> net payout $0."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-008",
+    "submission": {
+      "claimant_id": "C-005",
+      "policy_id": "POL-005",
+      "description": "On the motorway the traffic stopped suddenly and I could not stop in time and hit the car in front. The whole front of my car is crushed and the hood is bent. Police attended the scene.",
+      "incident_date": "2026-09-14",
+      "submitted_at": "2026-09-15T07:50:00+00:00",
+      "image_path": "data/images/img_front_crush_01.jpg",
+      "vehicle": "Volkswagen Golf 2015",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "payout_above_limit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "front",
+        "hood"
+      ],
+      "severity": "severe",
+      "third_party": true,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 8662.5,
+      "capped": false,
+      "why": "Genuine severe collision, but net payout exceeds the $5,000 auto-approve limit."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-009",
+    "submission": {
+      "claimant_id": "C-009",
+      "policy_id": "POL-009",
+      "description": "A truck pulled out in front of me at a junction and I hit it head on. The front end of my car is destroyed and the engine bay is exposed. Police report filed.",
+      "incident_date": "2026-09-11",
+      "submitted_at": "2026-09-12T10:10:00+00:00",
+      "image_path": "data/images/img_front_crush_02.jpg",
+      "vehicle": "BMW 320i 2012",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "payout_above_limit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "front"
+      ],
+      "severity": "total_loss",
+      "third_party": true,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 7000.0,
+      "capped": true,
+      "why": "Estimate exceeds the $8,000 coverage limit (capped); net payout still above auto-approve limit."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-010",
+    "submission": {
+      "claimant_id": "C-007",
+      "policy_id": "POL-007",
+      "description": "Someone rear-ended me at a roundabout and drove off. Only my rear bumper is damaged, it is cracked and pushed in. The front of the car is fine.",
+      "incident_date": "2026-09-16",
+      "submitted_at": "2026-09-17T13:30:00+00:00",
+      "image_path": "data/images/img_front_crush_03.jpg",
+      "vehicle": "Opel Astra 2014",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "photo_mismatch"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "moderate",
+      "third_party": true,
+      "covered": true,
+      "matches_story": false,
+      "net_payout": 1070.0,
+      "capped": false,
+      "why": "Narrative says rear damage only; photo shows a crushed front end. Also a brand-new policy."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-011",
+    "submission": {
+      "claimant_id": "C-010",
+      "policy_id": "POL-010",
+      "description": "I had a serious crash with another car at an intersection. The front end is completely destroyed, both airbags deployed and the car is not drivable. I think it is a total loss.",
+      "incident_date": "2026-09-21",
+      "submitted_at": "2026-09-22T09:00:00+00:00",
+      "image_path": "data/images/img_front_minor_dent_01.jpg",
+      "vehicle": "Toyota Corolla 2019",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "photo_mismatch",
+        "payout_above_limit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "front"
+      ],
+      "severity": "total_loss",
+      "third_party": true,
+      "covered": true,
+      "matches_story": false,
+      "net_payout": 6180.0,
+      "capped": false,
+      "why": "Claimed total loss; photo shows only a small bumper dent (severity mismatch). Inflated estimate is also above the auto-approve limit."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-012",
+    "submission": {
+      "claimant_id": "C-010",
+      "policy_id": "POL-010",
+      "description": "A heavy hailstorm hit the city while my car was parked outside. The roof and hood are covered in hail dents.",
+      "incident_date": "2026-09-05",
+      "submitted_at": "2026-09-07T16:45:00+00:00",
+      "image_path": "data/images/img_rear_hatch_dent_02.jpg",
+      "vehicle": "Nissan Qashqai 2016",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "photo_mismatch"
+      ],
+      "incident_type": "weather",
+      "circumstances": [],
+      "zones": [
+        "roof",
+        "hood"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": true,
+      "matches_story": false,
+      "net_payout": 1190.0,
+      "capped": false,
+      "why": "Claims hail on roof/hood; photo shows the rear tailgate with a single crease (zone + incident-type mismatch)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-013",
+    "submission": {
+      "claimant_id": "C-008",
+      "policy_id": "POL-008",
+      "description": "Another car scraped the corner of my rear bumper while I was parked on the street. There is a scrape on the bumper corner.",
+      "incident_date": "2026-09-17",
+      "submitted_at": "2026-09-18T11:25:00+00:00",
+      "image_path": "data/images/img_rear_corner_scrape_01.jpg",
+      "vehicle": "Hyundai i20 2018",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "high_risk"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "minor",
+      "third_party": true,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 245.0,
+      "capped": false,
+      "why": "Damage is consistent, but claimant has 4 claims in 12 months including a fraud-flagged one."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-014",
+    "submission": {
+      "claimant_id": "C-001",
+      "policy_id": "POL-001",
+      "description": "Someone reversed into my car in a car park and dented the rear quarter panel. I took this photo at night.",
+      "incident_date": "2026-09-24",
+      "submitted_at": "2026-09-25T20:10:00+00:00",
+      "image_path": "data/images/img_unusable_dark_01.jpg",
+      "vehicle": "Suzuki Swift 2019",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "photo_mismatch"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "moderate",
+      "third_party": true,
+      "covered": true,
+      "matches_story": false,
+      "net_payout": 735.0,
+      "capped": false,
+      "why": "Photo is too dark/blurred to verify anything -> IMAGE_UNUSABLE -> must be reviewed."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-015",
+    "submission": {
+      "claimant_id": "C-006",
+      "policy_id": "POL-006",
+      "description": "I hit a bollard while turning in a car park. The front bumper and fender near the headlight are dented.",
+      "incident_date": "2026-09-09",
+      "submitted_at": "2026-09-10T10:00:00+00:00",
+      "image_path": "data/images/img_front_fender_dent_01.jpg",
+      "vehicle": "Kia Picanto 2017",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "policy_inactive"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "front"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "Policy POL-006 expired on 2025-12-31."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-016",
+    "submission": {
+      "claimant_id": "C-002",
+      "policy_id": "POL-002",
+      "description": "Someone keyed my car while it was parked at the mall. There are deep scratches on the rear door above the wheel. I have reported it to the police.",
+      "incident_date": "2026-09-18",
+      "submitted_at": "2026-09-19T09:30:00+00:00",
+      "image_path": "data/images/img_side_scratch_02.jpg",
+      "vehicle": "Volkswagen Polo 2017",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "peril_not_covered"
+      ],
+      "incident_type": "vandalism",
+      "circumstances": [],
+      "zones": [
+        "right_side"
+      ],
+      "severity": "minor",
+      "third_party": false,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "POL-002 is collision-only; vandalism is not a covered peril."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-017",
+    "submission": {
+      "claimant_id": "C-005",
+      "policy_id": "POL-005",
+      "description": "Coming back from a party I had a few drinks and lost control on a bend and hit a wall. The front of the car is crushed and the windshield is cracked. Police breathalysed me at the scene.",
+      "incident_date": "2026-09-13",
+      "submitted_at": "2026-09-14T08:00:00+00:00",
+      "image_path": "data/images/img_front_crush_04.jpg",
+      "vehicle": "BMW 318i 2010",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "exclusion_hit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [
+        "driver_impaired"
+      ],
+      "zones": [
+        "front",
+        "windshield"
+      ],
+      "severity": "severe",
+      "third_party": false,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "DUI exclusion (POL-005-EXC-2)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-018",
+    "submission": {
+      "claimant_id": "C-004",
+      "policy_id": "POL-004",
+      "description": "During a track day at the racing circuit another car touched mine in a corner and dented both doors on the side.",
+      "incident_date": "2026-09-06",
+      "submitted_at": "2026-09-08T15:00:00+00:00",
+      "image_path": "data/images/img_side_door_dent_03.jpg",
+      "vehicle": "Honda Civic 2019",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "exclusion_hit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [
+        "racing_or_track_use"
+      ],
+      "zones": [
+        "left_side"
+      ],
+      "severity": "moderate",
+      "third_party": true,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "Racing/track-use exclusion (POL-004-EXC-2)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-019",
+    "submission": {
+      "claimant_id": "C-003",
+      "policy_id": "POL-003",
+      "description": "In July a car hit my rear bumper at a petrol station. I was travelling and could not report it earlier. The rear bumper below the tail light is dented.",
+      "incident_date": "2026-07-20",
+      "submitted_at": "2026-09-05T12:00:00+00:00",
+      "image_path": "data/images/img_rear_bumper_dent_02.jpg",
+      "vehicle": "Toyota Fortuner 2018",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "condition_failed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "moderate",
+      "third_party": true,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "Reported 47 days after the incident; POL-003 requires reporting within 30 days (POL-003-CON-1)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-020",
+    "submission": {
+      "claimant_id": "C-009",
+      "policy_id": "POL-009",
+      "description": "I was doing food delivery orders for a delivery app in the evening and hit a pole while looking at the phone for the next address. The hood and headlight are dented.",
+      "incident_date": "2026-09-15",
+      "submitted_at": "2026-09-16T18:30:00+00:00",
+      "image_path": "data/images/img_front_hood_dent_01.jpg",
+      "vehicle": "Chevrolet Aveo 2013",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "exclusion_hit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [
+        "commercial_use"
+      ],
+      "zones": [
+        "hood",
+        "front"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "Commercial-use exclusion (POL-009-EXC-2)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-021",
+    "submission": {
+      "claimant_id": "C-003",
+      "policy_id": "POL-003",
+      "description": "A cyclist lost balance and fell against the back of my parked car, leaving a small dent on the rear quarter panel. He apologised and gave me his number.",
+      "incident_date": "2026-09-23",
+      "submitted_at": "2026-09-24T09:00:00+00:00",
+      "image_path": "data/images/img_rear_quarter_dent_01.jpg",
+      "vehicle": "Toyota Corolla 2020",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "minor",
+      "third_party": true,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 295.0,
+      "capped": false,
+      "why": "Small covered collision, low risk."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-022",
+    "submission": {
+      "claimant_id": "C-004",
+      "policy_id": "POL-004",
+      "description": "Overnight someone kicked the door of my car while it was parked on the street and left a small dent and scratch. I reported it to the police.",
+      "incident_date": "2026-09-21",
+      "submitted_at": "2026-09-22T08:10:00+00:00",
+      "image_path": "data/images/img_side_door_dent_04.jpg",
+      "vehicle": "Honda City 2018",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "vandalism",
+      "circumstances": [],
+      "zones": [
+        "right_side"
+      ],
+      "severity": "minor",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 430.0,
+      "capped": false,
+      "why": "Vandalism covered under POL-004; small payout after $750 deductible."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-023",
+    "submission": {
+      "claimant_id": "C-010",
+      "policy_id": "POL-010",
+      "description": "I reversed into a loading ramp in a narrow lane and dented the rear quarter panel near the tail light.",
+      "incident_date": "2026-09-19",
+      "submitted_at": "2026-09-20T15:30:00+00:00",
+      "image_path": "data/images/img_rear_quarter_dent_02.jpg",
+      "vehicle": "Nissan Qashqai 2016",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "auto_approve",
+      "reasons": [
+        "all_checks_passed"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 930.0,
+      "capped": false,
+      "why": "Covered reversing collision."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-024",
+    "submission": {
+      "claimant_id": "C-001",
+      "policy_id": "POL-001",
+      "description": "A loaded truck failed to stop at traffic lights and smashed into the back of my car. The whole rear is crushed and the rear window is gone. Police came to the scene.",
+      "incident_date": "2026-09-25",
+      "submitted_at": "2026-09-26T10:00:00+00:00",
+      "image_path": "data/images/img_rear_crush_01.jpg",
+      "vehicle": "Suzuki Swift 2019",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "payout_above_limit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "total_loss",
+      "third_party": true,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 12590.0,
+      "capped": false,
+      "why": "Genuine severe rear collision; payout far above the auto-approve limit."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-025",
+    "submission": {
+      "claimant_id": "C-003",
+      "policy_id": "POL-003",
+      "description": "Heavy rain flooded the underpass and water came up to the doors. The engine stopped and water got inside the car. The interior and engine are damaged.",
+      "incident_date": "2026-09-22",
+      "submitted_at": "2026-09-23T11:00:00+00:00",
+      "image_path": "data/images/img_front_crush_05.jpg",
+      "vehicle": "Toyota Corolla 2020",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "photo_mismatch",
+        "peril_not_covered"
+      ],
+      "incident_type": "flood",
+      "circumstances": [],
+      "zones": [
+        "interior",
+        "undercarriage"
+      ],
+      "severity": "severe",
+      "third_party": false,
+      "covered": false,
+      "matches_story": false,
+      "net_payout": null,
+      "capped": null,
+      "why": "Flood is not covered by POL-003, BUT the photo shows a front-end crash, not flood damage. Rule 4 gate beats reject -> human review."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-026",
+    "submission": {
+      "claimant_id": "C-008",
+      "policy_id": "POL-008",
+      "description": "Someone scratched the back bumper of my car in the mall parking. There are scratches on the rear corner.",
+      "incident_date": "2026-09-20",
+      "submitted_at": "2026-09-21T13:00:00+00:00",
+      "image_path": "data/images/img_rear_corner_scrape_02.jpg",
+      "vehicle": "Hyundai i20 2018",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "high_risk"
+      ],
+      "incident_type": "vandalism",
+      "circumstances": [],
+      "zones": [
+        "rear"
+      ],
+      "severity": "minor",
+      "third_party": false,
+      "covered": true,
+      "matches_story": true,
+      "net_payout": 0.0,
+      "capped": false,
+      "why": "Consistent damage, but frequent claimant with a fraud flag."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-027",
+    "submission": {
+      "claimant_id": "C-005",
+      "policy_id": "POL-005",
+      "description": "Light scrape on the front bumper from a parking pole, just some paint damage.",
+      "incident_date": "2026-09-24",
+      "submitted_at": "2026-09-25T09:40:00+00:00",
+      "image_path": "data/images/img_front_crush_06.jpg",
+      "vehicle": "Kia Sportage 2022",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "human_review",
+      "reasons": [
+        "photo_mismatch"
+      ],
+      "incident_type": "collision",
+      "circumstances": [],
+      "zones": [
+        "front"
+      ],
+      "severity": "minor",
+      "third_party": false,
+      "covered": true,
+      "matches_story": false,
+      "net_payout": 0.0,
+      "capped": false,
+      "why": "Says a light scrape; photo shows a crushed front end (severity mismatch)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-028",
+    "submission": {
+      "claimant_id": "C-003",
+      "policy_id": "POL-003",
+      "description": "My friend, who does not have a driving licence, borrowed my car and hit a wall on the way home. The front fender over the wheel is crumpled.",
+      "incident_date": "2026-09-18",
+      "submitted_at": "2026-09-19T17:00:00+00:00",
+      "image_path": "data/images/img_front_fender_crush_01.jpg",
+      "vehicle": "Toyota Corolla 2020",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "exclusion_hit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [
+        "unlicensed_driver"
+      ],
+      "zones": [
+        "front",
+        "wheels"
+      ],
+      "severity": "severe",
+      "third_party": false,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "Unlicensed-driver exclusion (POL-003-EXC-3)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-029",
+    "submission": {
+      "claimant_id": "C-004",
+      "policy_id": "POL-004",
+      "description": "After an argument I lost my temper and kicked the back of my own car several times. The rear bumper and quarter panel are dented.",
+      "incident_date": "2026-09-17",
+      "submitted_at": "2026-09-18T19:20:00+00:00",
+      "image_path": "data/images/img_rear_quarter_dent_03.jpg",
+      "vehicle": "Honda City 2018",
+      "police_report_filed": false
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "exclusion_hit"
+      ],
+      "incident_type": "vandalism",
+      "circumstances": [
+        "intentional_act"
+      ],
+      "zones": [
+        "rear"
+      ],
+      "severity": "moderate",
+      "third_party": false,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "Intentional-damage exclusion (POL-004-EXC-1)."
+    }
+  },
+  {
+    "claim_id": "CLM-EVAL-030",
+    "submission": {
+      "claimant_id": "C-004",
+      "policy_id": "POL-004",
+      "description": "I was driving for a ride-hailing app with a passenger in the back when another car hit my rear quarter at a junction. The rear quarter and tail light are crushed. Police came.",
+      "incident_date": "2026-09-20",
+      "submitted_at": "2026-09-21T08:30:00+00:00",
+      "image_path": "data/images/img_rear_quarter_crush_01.jpg",
+      "vehicle": "Honda City 2018",
+      "police_report_filed": true
+    },
+    "expected": {
+      "outcome": "reject",
+      "reasons": [
+        "exclusion_hit"
+      ],
+      "incident_type": "collision",
+      "circumstances": [
+        "commercial_use"
+      ],
+      "zones": [
+        "rear"
+      ],
+      "severity": "severe",
+      "third_party": true,
+      "covered": false,
+      "matches_story": true,
+      "net_payout": null,
+      "capped": null,
+      "why": "Commercial-use exclusion (POL-004-EXC-3)."
+    }
+  }
+]

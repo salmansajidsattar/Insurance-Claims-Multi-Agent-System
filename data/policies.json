@@ -1,0 +1,277 @@
+[
+  {
+    "policy_id": "POL-001",
+    "holder_id": "C-001",
+    "product_id": "COMP_PLUS",
+    "product_name": "Comprehensive Plus",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 25000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 5000.0,
+        "deductible": 250.0
+      },
+      {
+        "peril": "weather",
+        "limit": 15000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "flood",
+        "limit": 15000.0,
+        "deductible": 1000.0
+      },
+      {
+        "peril": "fire",
+        "limit": 25000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "theft",
+        "limit": 25000.0,
+        "deductible": 500.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-002",
+    "holder_id": "C-002",
+    "product_id": "BASIC",
+    "product_name": "Collision Only",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 8000.0,
+        "deductible": 1000.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-003",
+    "holder_id": "C-003",
+    "product_id": "COMP",
+    "product_name": "Comprehensive",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 15000.0,
+        "deductible": 250.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 3000.0,
+        "deductible": 250.0
+      },
+      {
+        "peril": "weather",
+        "limit": 10000.0,
+        "deductible": 250.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-004",
+    "holder_id": "C-004",
+    "product_id": "STANDARD",
+    "product_name": "Standard Auto",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 12000.0,
+        "deductible": 750.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 4000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "theft",
+        "limit": 12000.0,
+        "deductible": 750.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-005",
+    "holder_id": "C-005",
+    "product_id": "PREMIUM",
+    "product_name": "Premium Auto",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 50000.0,
+        "deductible": 300.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 10000.0,
+        "deductible": 300.0
+      },
+      {
+        "peril": "weather",
+        "limit": 50000.0,
+        "deductible": 300.0
+      },
+      {
+        "peril": "flood",
+        "limit": 50000.0,
+        "deductible": 300.0
+      },
+      {
+        "peril": "fire",
+        "limit": 50000.0,
+        "deductible": 300.0
+      },
+      {
+        "peril": "theft",
+        "limit": 50000.0,
+        "deductible": 300.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-006",
+    "holder_id": "C-006",
+    "product_id": "STANDARD",
+    "product_name": "Standard Auto",
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 12000.0,
+        "deductible": 750.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 4000.0,
+        "deductible": 500.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-007",
+    "holder_id": "C-007",
+    "product_id": "COMP",
+    "product_name": "Comprehensive",
+    "start": "2026-09-10",
+    "end": "2027-09-09",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 20000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 5000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "weather",
+        "limit": 20000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "theft",
+        "limit": 20000.0,
+        "deductible": 500.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-008",
+    "holder_id": "C-008",
+    "product_id": "COMP",
+    "product_name": "Comprehensive",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 15000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 3000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "weather",
+        "limit": 15000.0,
+        "deductible": 500.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-009",
+    "holder_id": "C-009",
+    "product_id": "BASIC",
+    "product_name": "Collision Only",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 8000.0,
+        "deductible": 1000.0
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-010",
+    "holder_id": "C-010",
+    "product_id": "COMP_PLUS",
+    "product_name": "Comprehensive Plus",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "covers": [
+      {
+        "peril": "collision",
+        "limit": 20000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "vandalism",
+        "limit": 5000.0,
+        "deductible": 250.0
+      },
+      {
+        "peril": "weather",
+        "limit": 20000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "flood",
+        "limit": 20000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "fire",
+        "limit": 20000.0,
+        "deductible": 500.0
+      },
+      {
+        "peril": "theft",
+        "limit": 20000.0,
+        "deductible": 500.0
+      }
+    ]
+  }
+]

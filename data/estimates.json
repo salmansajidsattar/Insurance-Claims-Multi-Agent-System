@@ -1,0 +1,392 @@
+{
+  "CLM-EVAL-001": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear bumper cover repair and refinish",
+        "cost": 770.0
+      },
+      {
+        "what": "Rear bumper bracket",
+        "cost": 160.0
+      }
+    ]
+  },
+  "CLM-EVAL-002": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Refinish front and rear doors (scratches)",
+        "cost": 727.5
+      }
+    ]
+  },
+  "CLM-EVAL-003": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front bumper cover replace",
+        "cost": 847.5
+      },
+      {
+        "what": "Paint and blend front bumper",
+        "cost": 440.0
+      }
+    ]
+  },
+  "CLM-EVAL-004": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Paintless dent repair rear door",
+        "cost": 195.0
+      },
+      {
+        "what": "Spot refinish",
+        "cost": 182.5
+      }
+    ]
+  },
+  "CLM-EVAL-005": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear door skin replace",
+        "cost": 1300.0
+      },
+      {
+        "what": "Sill panel repair",
+        "cost": 470.0
+      },
+      {
+        "what": "Refinish doors",
+        "cost": 585.0
+      }
+    ]
+  },
+  "CLM-EVAL-006": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Tailgate dent repair",
+        "cost": 540.0
+      },
+      {
+        "what": "Refinish tailgate",
+        "cost": 480.0
+      }
+    ]
+  },
+  "CLM-EVAL-007": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front bumper corner scuff repair",
+        "cost": 287.5
+      }
+    ]
+  },
+  "CLM-EVAL-008": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Hood replace",
+        "cost": 1645.0
+      },
+      {
+        "what": "Front bumper assembly",
+        "cost": 2160.0
+      },
+      {
+        "what": "Radiator and support",
+        "cost": 2490.0
+      },
+      {
+        "what": "Headlamps (pair)",
+        "cost": 1697.5
+      },
+      {
+        "what": "Refinish front end",
+        "cost": 970.0
+      }
+    ]
+  },
+  "CLM-EVAL-009": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front structure repair",
+        "cost": 6630.0
+      },
+      {
+        "what": "Engine bay components",
+        "cost": 5580.0
+      },
+      {
+        "what": "Hood, bumper, fenders",
+        "cost": 3120.0
+      }
+    ]
+  },
+  "CLM-EVAL-010": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear bumper replace",
+        "cost": 1110.0
+      },
+      {
+        "what": "Refinish rear bumper",
+        "cost": 460.0
+      }
+    ]
+  },
+  "CLM-EVAL-011": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front bumper and grille",
+        "cost": 2590.0
+      },
+      {
+        "what": "Hood replace",
+        "cost": 1595.0
+      },
+      {
+        "what": "Airbag module replace",
+        "cost": 2495.0
+      }
+    ]
+  },
+  "CLM-EVAL-012": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Roof hail PDR",
+        "cost": 1170.0
+      },
+      {
+        "what": "Hood hail PDR",
+        "cost": 520.0
+      }
+    ]
+  },
+  "CLM-EVAL-013": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear bumper corner repair",
+        "cost": 400.0
+      },
+      {
+        "what": "Refinish",
+        "cost": 345.0
+      }
+    ]
+  },
+  "CLM-EVAL-014": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear quarter panel dent repair",
+        "cost": 755.0
+      },
+      {
+        "what": "Refinish quarter panel",
+        "cost": 480.0
+      }
+    ]
+  },
+  "CLM-EVAL-015": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front bumper and fender repair",
+        "cost": 950.0
+      },
+      {
+        "what": "Refinish",
+        "cost": 450.0
+      }
+    ]
+  },
+  "CLM-EVAL-016": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Refinish rear door (keyed)",
+        "cost": 505.0
+      }
+    ]
+  },
+  "CLM-EVAL-017": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front end rebuild",
+        "cost": 5240.0
+      },
+      {
+        "what": "Hood replace",
+        "cost": 1495.0
+      },
+      {
+        "what": "Windshield replace",
+        "cost": 780.0
+      }
+    ]
+  },
+  "CLM-EVAL-018": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front and rear door repair",
+        "cost": 1550.0
+      },
+      {
+        "what": "Refinish doors",
+        "cost": 670.0
+      }
+    ]
+  },
+  "CLM-EVAL-019": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear bumper repair and refinish",
+        "cost": 810.0
+      }
+    ]
+  },
+  "CLM-EVAL-020": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Hood repair",
+        "cost": 740.0
+      },
+      {
+        "what": "Headlamp replace",
+        "cost": 545.0
+      },
+      {
+        "what": "Refinish hood",
+        "cost": 470.0
+      }
+    ]
+  },
+  "CLM-EVAL-021": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Paintless dent repair rear quarter",
+        "cost": 325.0
+      },
+      {
+        "what": "Blend refinish",
+        "cost": 220.0
+      }
+    ]
+  },
+  "CLM-EVAL-022": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Door dent repair",
+        "cost": 510.0
+      },
+      {
+        "what": "Refinish door",
+        "cost": 420.0
+      }
+    ]
+  },
+  "CLM-EVAL-023": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Quarter panel repair",
+        "cost": 970.0
+      },
+      {
+        "what": "Refinish",
+        "cost": 460.0
+      }
+    ]
+  },
+  "CLM-EVAL-024": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear structure and floor pan",
+        "cost": 8150.0
+      },
+      {
+        "what": "Rear glass, lamps, bumper",
+        "cost": 2790.0
+      },
+      {
+        "what": "Rear roof section",
+        "cost": 2150.0
+      }
+    ]
+  },
+  "CLM-EVAL-025": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Interior drying and carpets",
+        "cost": 1550.0
+      },
+      {
+        "what": "Engine water damage",
+        "cost": 4280.0
+      }
+    ]
+  },
+  "CLM-EVAL-026": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear bumper corner refinish",
+        "cost": 340.0
+      }
+    ]
+  },
+  "CLM-EVAL-027": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Front bumper refinish",
+        "cost": 295.0
+      }
+    ]
+  },
+  "CLM-EVAL-028": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Fender and wheel arch",
+        "cost": 2450.0
+      }
+    ]
+  },
+  "CLM-EVAL-029": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear bumper and quarter repair",
+        "cost": 1120.0
+      }
+    ]
+  },
+  "CLM-EVAL-030": {
+    "shop": "AutoFix Body Works",
+    "items": [
+      {
+        "what": "Rear quarter and lamp",
+        "cost": 2880.0
+      }
+    ]
+  }
+}
